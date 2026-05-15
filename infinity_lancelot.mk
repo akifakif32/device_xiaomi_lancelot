@@ -33,3 +33,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=lancelot \
     BuildDesc="lancelot-user 11 RP1A.200720.011 V12.5.6.0.RJCMIXM release-keys" \
     BuildFingerprint=Redmi/lancelot_global/lancelot:11/RP1A.200720.011/V12.5.6.0.RJCMIXM:user/release-keys
+    
+# Enable activity open override fix for low-end devices or devices affected by activity open/exit freezing issue
+PERF_ANIM_OVERRIDE := true
